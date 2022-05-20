@@ -1,0 +1,28 @@
+.row__posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+.row__poster{
+    width:100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 7px;
+    transition: all 450ms;
+}
+
+.row__backdrop{
+    max-height: 250px;
+  
+ 
+
+}
+.row__poster:hover{
+    transform: scale(1.09);
+}
+

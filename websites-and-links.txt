@@ -1,0 +1,4 @@
+
+a21dd79d00cc8bd2977556806f609880
+https://www.themoviedb.org/settings/api
+npm install -g firebase-tools

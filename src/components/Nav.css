@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(122 58 58 / 13%);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+    transition: all .4s;
+    transition-timing-function:ease-in ;
+}
+.navbar__black{
+    background-color: rgb(22, 22, 22);
+}
+.nav__logo{
+    width: 100px;
+    height: 40px;
+    position: fixed;
+    left:20px;
+
+}
+
+.nav__avatarLogo{
+    width: 40px;
+    height: 40px; 
+    position: fixed;
+    right: 20px;
+}
+
